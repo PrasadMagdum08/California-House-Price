@@ -1,9 +1,3 @@
-numpy
-pandas
-seaborn
-matplotlib
-scikit-learn
-requests
-setuptools
-django
-djangorestframework
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c89145809006e18ee7c0b16a168dd0f396975ea606276085669e2e85a8924ac
+size 91

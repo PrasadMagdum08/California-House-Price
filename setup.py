@@ -1,20 +1,3 @@
-from setuptools import setup, find_packages
-from typing import List
-
-
-def get_requirements(file_path:str) -> List[str]:
-
-    requirements = []
-
-    with open(file_path, 'r') as file:
-        requirements = file.readlines()
-        requirements = [req.replace('\n', '') for req in requirements]
-
-    return requirements
-
-setup(
-    name='California_House_Price_Prediction',
-    version='0.0.1',
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt')
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9463b8948519fbea7a3b26719ab84fb9b7af58e237f5a12922b0663945f63a6b
+size 483
